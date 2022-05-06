@@ -1,0 +1,44 @@
+* {
+    line-height: 15px;
+    font-family: 'Quicksand', sans-serif;
+	color: rgb(9, 0, 49);
+}
+
+#wrapper {
+    background-color: rgba(224, 224, 255, 0.075);
+    width: 900px;
+    margin: 50px auto;
+    
+}
+
+.foto_saya {
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+
+.slide_img {
+    height: 450px;
+}
+
+.slide_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+
+footer {
+    clear: both;
+    background-color: white;
+    text-align: center;
+
+}
